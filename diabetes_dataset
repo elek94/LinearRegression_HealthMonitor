@@ -1,0 +1,51 @@
+Diabetes dataset
+----------------
+
+Ten baseline variables, age, sex, body mass index, average blood
+pressure, and six blood serum measurements were obtained for each of n =
+442 diabetes patients, as well as the response of interest, a
+quantitative measure of disease progression one year after baseline.
+
+**Data Set Characteristics:**
+
+  :Number of Instances: 442
+
+  :Number of Attributes: First 10 columns are numeric predictive values
+
+  :Target: Column 11 is a quantitative measure of disease progression one year after baseline
+
+  :Attribute Information:
+      - age     age in years
+      - sex
+      - bmi     body mass index
+      - bp      average blood pressure
+      - s1      tc, total serum cholesterol
+      - s2      ldl, low-density lipoproteins
+      - s3      hdl, high-density lipoproteins
+      - s4      tch, total cholesterol / HDL
+      - s5      ltg, possibly log of serum triglycerides level
+      - s6      glu, blood sugar level
+
+Note: Each of these 10 feature variables have been mean centered and scaled by the standard deviation times the square root of `n_samples` (i.e. the sum of squares of each column totals 1).
+
+Source URL:
+https://www4.stat.ncsu.edu/~boos/var.select/diabetes.html
+
+For more information see:
+Bradley Efron, Trevor Hastie, Iain Johnstone and Robert Tibshirani (2004) "Least Angle Regression," Annals of Statistics (with discussion), 407-499.
+(https://web.stanford.edu/~hastie/Papers/LARS/LeastAngle_2002.pdf)
+
+(442, 10)
+(442,)
+(15, 1)
+(5, 1)
+Coefficients [299.64775491]
+Intercept 154.15193459709758
+[141.41727458 153.82900496 141.41727458 148.86431281 155.070178
+ 143.89962066 136.45258243 146.38196673 140.17610155 151.34665889
+ 148.86431281 150.10548585 157.55252407 162.51721622 150.10548585]
+[125.28202509 131.48789028 142.65844762 126.52319813 137.69375547]
+[ 97. 118. 138.  75. 168.]
+3469.7215154167875
+915.3211330464264
+0.013344344276271514
